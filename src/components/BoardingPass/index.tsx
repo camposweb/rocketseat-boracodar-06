@@ -18,12 +18,12 @@ export function BoardingPass() {
 				</div>
 				<div>
 					<strong className={styles.initial}>GRU</strong>
-					<img src="src/assets/airplane.svg" alt="" />
+					<img src="public/airplane.svg" alt="" />
 					<strong className={styles.initial}>MXP</strong>
 				</div>
 				<div>
 					<span>17:00</span>
-					<span>10:30¹=+</span>
+					<span>10:30</span>
 				</div>
 			</div>
 			<hr />
@@ -67,42 +67,14 @@ export function BoardingPass() {
 						</div>
 					</div>
 					<div className={styles.qrcode}>
-						<img src="src/assets/qrcode.svg" alt="" />
+						<img src="public/qrcode.svg" alt="" />
 						<span>Grupo de Embarque: 3</span>
 					</div>
 				</div>
 				<div className={styles.danger}>
 					<strong>Atenção:</strong><span> o portão fecha 16:45</span>
 				</div>
-
-
-
-				{/* <div className={styles.footerMain}>
-					<div className={styles.wrap}>
-						<div>
-							<span>Embarque</span>
-							<strong className={styles.bgColor}>16:15</strong>
-						</div>
-						<div>
-							<span>Terminal</span>
-							<strong>2</strong>
-						</div>
-						<div>
-							<span>Portão</span>
-							<strong>15</strong>
-						</div>
-					</div>
-					<div>
-							<img src="src/assets/qrcode.svg" alt="" />
-							<span>Grupo de Embarque: 3</span>
-						</div>
-				</div> */}
-				{/* <div className={styles.danger}>
-					<span>Atenção: o portão fecha 16:45</span>
-				</div> */}
 			</div>
-
-
 		</div>
 	)
 }

@@ -18,7 +18,8 @@ export function BoardingPass() {
 				</div>
 				<div>
 					<strong className={styles.initial}>GRU</strong>
-					<img src="public/airplane.svg" alt="" />
+					{/* <img src="src/assets/airplane.svg" alt="" /> */}
+					<img src="https://raw.githubusercontent.com/camposweb/rocketseat-boracodar-06/c392367ba79a199a751c998d6ea27c5db9c9030a/src/assets/airplane.svg" alt="" />
 					<strong className={styles.initial}>MXP</strong>
 				</div>
 				<div>
@@ -41,7 +42,7 @@ export function BoardingPass() {
 			<div className={styles.footer}>
 				<div className={styles.footerMain}>
 					<div className={styles.dados}>
-					<div>
+						<div>
 							<div>
 								<span>Embarque</span>
 							</div>
@@ -67,7 +68,8 @@ export function BoardingPass() {
 						</div>
 					</div>
 					<div className={styles.qrcode}>
-						<img src="public/qrcode.svg" alt="" />
+						{/* <img src="src/assets/qrcode.svg" alt="" /> */}
+						<img src="https://raw.githubusercontent.com/camposweb/rocketseat-boracodar-06/c392367ba79a199a751c998d6ea27c5db9c9030a/src/assets/qrcode.svg" alt="" />
 						<span>Grupo de Embarque: 3</span>
 					</div>
 				</div>

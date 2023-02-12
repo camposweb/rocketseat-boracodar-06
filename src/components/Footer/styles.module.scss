@@ -1,0 +1,19 @@
+footer {
+	max-width: 327px;
+	margin: 0 auto;
+	padding: 20px 0;
+
+	div {
+		display: flex;
+		justify-content: space-between;
+
+		h1 {
+			text-align: center;
+			font-weight: 400;
+			font-size: 14px;
+			color: rgba(255, 255, 255, 0.5);
+		}
+	}
+
+	
+}
